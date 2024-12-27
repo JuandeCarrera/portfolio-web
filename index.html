@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Juan de Dios Carrera Zazo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #023e8a;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .about {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #90e0ef;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .projects img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0077b6;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Juan de Dios Carrera Zazo</h1>
+        <p>Simplificando la tecnología para todos</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+        <a href="cv/Juan_de_Dios_Carrera_Zazo.pdf" download>Descargar CV</a>
+    </nav>
+
+    <section id="about" class="section about">
+        <h2>Sobre Mí</h2>
+        <p>Soy estudiante de Ingeniería Informática en la UCLM, apasionado por el diseño y desarrollo de interfaces intuitivas. Tengo experiencia en tecnologías como Java, Python, Angular, y bases de datos como MySQL y MongoDB. Además, soy jugador federado de balonmano, lo que me enseña disciplina y trabajo en equipo.</p>
+    </section>
+
+    <section id="skills" class="section skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Lenguajes de programación: Java, Python, JavaScript, HTML, CSS</li>
+            <li>Frameworks: SpringBoot, JUnit, Angular</li>
+            <li>Bases de datos: MySQL, Microsoft SQL Server, MongoDB</li>
+            <li>Metodologías: Scrum, Gitflow, DevOps</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="section projects">
+        <h2>Proyectos</h2>
+        <p>Responsable de la web y voluntario en la gestión de Toledo Handball Cup.</p>
+        <!-- Reemplazar "ruta/a/imagen.jpg" con la ruta de las imágenes -->
+        <img src="ruta/a/imagen.jpg" alt="Proyecto Toledo Handball Cup">
+    </section>
+
+    <section id="contact" class="section contact">
+        <h2>Contacto</h2>
+        <p>Teléfono: 684 363 150</p>
+        <p>Email: <a href="mailto:jdcarrerazazo@gmail.com">jdcarrerazazo@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/tu-perfil">linkedin.com/in/tu-perfil</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Juan de Dios Carrera Zazo</p>
+    </footer>
+</body>
+</html>
